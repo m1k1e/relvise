@@ -41,6 +41,8 @@ body {
     font-family: Montserrat;
 }
 
+/*--------Container styles------------------*/
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -50,3 +52,42 @@ body {
     max-width: 1046px;
     margin: 0 auto;
 }
+
+/*--------Header styles------------------*/
+
+.header__main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.header__container {
+
+}
+
+.header__main_logo {
+
+}
+
+.header__main_menu {
+
+}
+
+.menu {
+
+}
+
+.menu__list {
+
+}
+
+.menu__item {
+
+}
+
+.menu__link {
+
+}
+ 
