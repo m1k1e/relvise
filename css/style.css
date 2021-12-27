@@ -64,7 +64,9 @@ body {
 }
 
 .header__container {
-
+    display: flex;
+    min-height: 104px;
+    align-items: center;
 }
 
 .header__main_logo {
