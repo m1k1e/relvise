@@ -51,7 +51,9 @@ body {
 
 ._container {
     max-width: 1046px;
+    padding: 0 15px;
     margin: 0 auto;
+    box-sizing: content-box;
 }
 
 /*--------Header styles------------------*/
