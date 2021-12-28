@@ -36,11 +36,20 @@ html,
 body {
     height: 100%;
     line-height: 1;
+<<<<<<< HEAD
     color: #252B42;
     font-family: Montserrat;
     font-weight: 500;
 
+=======
+    font-size: 14px;
+    color: #252B42;
+    font-family: Montserrat;
+    font-weight: 500;
+>>>>>>> header
 }
+
+/*--------Container styles------------------*/
 
 .wrapper {
     min-height: 100%;
@@ -49,6 +58,89 @@ body {
 
 ._container {
     max-width: 1046px;
+    padding: 0 15px;
     margin: 0 auto;
+<<<<<<< HEAD
 }
 
+=======
+    box-sizing: content-box;
+}
+
+/*--------Header styles------------------*/
+
+.header__main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.header__container {
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+}
+
+@media (max-width: 479px) {
+    .header__container {
+        min-height: 70px;
+    }
+}
+
+.header__main_logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+
+}
+
+.header__main_menu {
+    margin-left: 133px;
+}
+
+@media (max-width: 992px) {
+    .header__main_menu {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header__main_menu {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 479px) {
+    .header__main_menu {
+        margin-left: 20px;
+    }
+}
+
+.menu {
+    padding: 5px 0;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__item:not(:last-child){
+    margin-right: 21px;
+}
+
+.menu__link {
+    color: #737373;
+    line-height: calc(24/14*100%);
+    font-weight: 700;
+}
+
+@media (max-width: 479px) {
+    .menu__link {
+        font-size: 18px;
+    }
+}
+ 
+>>>>>>> header
