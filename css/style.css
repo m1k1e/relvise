@@ -36,17 +36,10 @@ html,
 body {
     height: 100%;
     line-height: 1;
-<<<<<<< HEAD
-    color: #252B42;
-    font-family: Montserrat;
-    font-weight: 500;
-
-=======
     font-size: 14px;
     color: #252B42;
     font-family: Montserrat;
     font-weight: 500;
->>>>>>> header
 }
 
 /*--------Container styles------------------*/
@@ -60,11 +53,8 @@ body {
     max-width: 1046px;
     padding: 0 15px;
     margin: 0 auto;
-<<<<<<< HEAD
-}
-
-=======
     box-sizing: content-box;
+   
 }
 
 /*--------Header styles------------------*/
@@ -142,5 +132,3 @@ body {
         font-size: 18px;
     }
 }
- 
->>>>>>> header
