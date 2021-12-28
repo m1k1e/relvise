@@ -86,11 +86,12 @@ body {
 }
 
 .menu__list {
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.menu__item {
-
+.menu__item:not(:last-child){
+    margin-right: 21px;
 }
 
 .menu__link {
