@@ -36,8 +36,10 @@ html,
 body {
     height: 100%;
     line-height: 1;
-    font-size: 16px;
-    color: #000;
+    color: #252B42;
+    font-family: Montserrat;
+    font-weight: 500;
+
 }
 
 .wrapper {
@@ -49,3 +51,4 @@ body {
     max-width: 1046px;
     margin: 0 auto;
 }
+
