@@ -36,9 +36,10 @@ html,
 body {
     height: 100%;
     line-height: 1;
-    font-size: 16px;
-    color: #000;
+    font-size: 14px;
+    color: #252B42;
     font-family: Montserrat;
+    font-weight: 500;
 }
 
 /*--------Container styles------------------*/
@@ -74,7 +75,7 @@ body {
 }
 
 .header__main_menu {
-
+    margin-left: 133px;
 }
 
 .menu {
