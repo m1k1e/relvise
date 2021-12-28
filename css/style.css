@@ -71,6 +71,9 @@ body {
 }
 
 .header__main_logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
 
 }
 
@@ -91,6 +94,5 @@ body {
 }
 
 .menu__link {
-
 }
  
