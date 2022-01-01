@@ -59,6 +59,18 @@ body {
    
 }
 
+_ibg {
+    position: relative;
+}
+_ibg img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
 /*--------Header styles------------------*/
 
 .header__main {
