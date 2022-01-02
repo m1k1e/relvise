@@ -167,7 +167,9 @@ _ibg img {
     z-index: 2;
 }
 .promo__title {
-    
+    font-size: 58px;
+    line-height: calc(80/58*100%);
+    font-weight: 800;
 }
 .promo__text {
 }
