@@ -152,6 +152,37 @@ _ibg img {
     flex: 1 1 auto;
 }
 
+.main__content__promo {
+}
+
+/*--------------------PROMO----------------------------------*/
+
+.promo {
+    position: relative;
+}
+.promo__content_wrapper {
+    max-width: 509px;
+    padding: 184px 0 191px 0;
+    position: relative;
+    z-index: 2;
+}
+.promo__title {
+    
+}
+.promo__text {
+}
+.promo__buttons {
+}
+.promo__button {
+}
+.promo__image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
 
 /*-------------------FOOTER-------------------------------------*/
 .footer_main {
