@@ -166,6 +166,11 @@ _ibg img {
     position: relative;
     z-index: 2;
 }
+
+.promo__content_wrapper > *:not(:last-child) {
+    margin-bottom: 35px;
+}
+
 .promo__title {
     font-size: 58px;
     line-height: calc(80/58*100%);
