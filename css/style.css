@@ -161,7 +161,7 @@ _ibg img {
     position: relative;
 }
 .promo__content_wrapper {
-    max-width: 509px;
+    max-width: 360px;
     padding: 184px 0 191px 0;
     position: relative;
     z-index: 2;
@@ -175,16 +175,47 @@ _ibg img {
     font-size: 58px;
     line-height: calc(80/58*100%);
     font-weight: 800;
+    letter-spacing: 0.2px;
 }
+
 .promo__text {
     color: #737373;
     font-size: 20px;
     line-height: 150%;
+    letter-spacing: 0.2px;
 }
+
 .promo__buttons {
+    display: inline-flex;
 }
+
 .promo__button {
+    border-radius: 37px;
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    min-height: 48px;
+    letter-spacing: 0.2px;
+    line-height: 150%;
+    padding: 0 36px;
+    text-align: center;
 }
+
+.promo__button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.button_orange {
+    background: #ff7b47;
+    color: #fff;
+}
+
+.button_opacity {
+    border: 1px solid #0d5c63;
+    color: #0d5c63;
+}
+
 .promo__image {
     position: absolute;
     height: 100%;
