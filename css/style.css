@@ -59,10 +59,11 @@ body {
    
 }
 
-_ibg {
+._ibg {
     position: relative;
 }
-_ibg img {
+
+._ibg img {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -167,6 +168,12 @@ _ibg img {
     z-index: 2;
 }
 
+@media (max-width: 992px) {
+    .promo__content_wrapper {
+        padding: 120px 0 191px 0;
+    }
+}
+
 .promo__content_wrapper > *:not(:last-child) {
     margin-bottom: 35px;
 }
@@ -178,6 +185,12 @@ _ibg img {
     letter-spacing: 0.2px;
 }
 
+@media (max-width: 479px) {
+    .promo__title {
+        font-size: 40px;
+    }
+}
+
 .promo__text {
     color: #737373;
     font-size: 20px;
@@ -185,8 +198,16 @@ _ibg img {
     letter-spacing: 0.2px;
 }
 
+@media (max-width: 479px) {
+    .promo__text { 
+        color: #585757;
+    }
+}
+
 .promo__buttons {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px 0;
 }
 
 .promo__button {
@@ -200,10 +221,18 @@ _ibg img {
     line-height: 150%;
     padding: 0 36px;
     text-align: center;
+    margin: 10px 0;
 }
 
 .promo__button:not(:last-child) {
-    margin-right: 10px;
+        margin-right: 10px;
+}
+
+
+@media (max-width: 479px) {
+    .promo__button {
+        flex: 1 1 100%;
+    }
 }
 
 .button_orange {
@@ -222,6 +251,18 @@ _ibg img {
     width: 100%;
     left: 0;
     top: 0;
+}
+
+@media (max-width: 1300px) {
+    .promo__image img {
+        object-position: right;
+    }
+}
+
+@media (max-width: 992px) {
+    .promo__image img {
+        opacity: 0.5;
+    }
 }
 
 
