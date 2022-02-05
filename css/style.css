@@ -291,6 +291,10 @@ body {
 .item-service {
 }
 
+.item-service > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 .item-service__icon {
 }
 
