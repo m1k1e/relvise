@@ -412,17 +412,28 @@ body {
 
 .advantages__item {
   background-color: #fff;
-  padding: 30px 40px;
+  font-weight: 700;
+  padding: 30px;
   text-align: center;
+}
+
+.advantages__item:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .advantages__icon {
 }
 
 .advantages__value {
+  font-size: 40px;
+  line-height: 142%;
 }
 
 .advantages__text {
+  color: #737373;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
 }
 
 /*-------------------FOOTER-------------------------------------*/
