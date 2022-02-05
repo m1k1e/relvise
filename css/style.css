@@ -417,11 +417,15 @@ body {
   text-align: center;
 }
 
-.advantages__item:not(:last-child) {
+.advantages__item > *:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .advantages__icon {
+  align-items: flex-end;
+  display: flex;
+  height: 48px;
+  justify-content: center;
 }
 
 .advantages__value {
