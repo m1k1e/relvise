@@ -160,6 +160,9 @@ body {
   z-index: 2;
 }
 
+.main__advantages {
+}
+
 /*--------------------PROMO----------------------------------*/
 
 .promo {
@@ -362,6 +365,38 @@ body {
 .item-service__text {
   color: #737373;
   line-height: 143%;
+}
+
+/*-------------------Advantages---------------------------------*/
+
+.advantages__container {
+}
+
+.advantages__header {
+}
+
+.header-block {
+}
+
+.header-block__title {
+}
+
+.header-block__description {
+}
+
+.advantages__body {
+}
+
+.advantages__column {
+}
+
+.advantages__icon {
+}
+
+.advantages__value {
+}
+
+.advantages__text {
 }
 
 /*-------------------FOOTER-------------------------------------*/
