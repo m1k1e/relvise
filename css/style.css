@@ -295,12 +295,15 @@ body {
 }
 
 .item-service__title {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 133%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133%;
+  letter-spacing: 0.1px;
 }
 
 .item-service__text {
+  color: #737373;
+  line-height: 143%;
 }
 
 /*-------------------FOOTER-------------------------------------*/
