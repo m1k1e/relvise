@@ -295,6 +295,9 @@ body {
 }
 
 .item-service__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 133%;
 }
 
 .item-service__text {
