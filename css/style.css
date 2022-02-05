@@ -288,6 +288,19 @@ body {
   padding: 35px;
 }
 
+.item-service-green {
+  background-color: #0d5c63;
+  color: #fff;
+}
+
+.item-service-green .item-service__title {
+  color: #fff;
+}
+
+.item-service-green .item-service__text {
+  color: #fff;
+}
+
 .item-service {
 }
 
