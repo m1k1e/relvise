@@ -155,6 +155,9 @@ body {
 }
 
 .main__services {
+  margin-top: -111px;
+  position: relative;
+  z-index: 2;
 }
 
 /*--------------------PROMO----------------------------------*/
