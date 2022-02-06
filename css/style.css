@@ -209,6 +209,9 @@ body {
   }
 }
 
+.main__clients {
+}
+
 /*--------------------HEADER-BLOCK---------------------------*/
 .header-block {
   text-align: center;
@@ -714,6 +717,33 @@ body {
     font-size: 24px;
     text-align: center;
   }
+}
+
+/*-------------------Clients------------------------------------*/
+
+.clients {
+  padding: 50px 0;
+}
+
+.clients__container {
+}
+
+.clients__items {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.clients__item {
+  flex: 0 1 16.6667%;
+  min-width: 140px;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.clients__item img {
+  max-width: 100%;
 }
 
 /*-------------------FOOTER-------------------------------------*/
