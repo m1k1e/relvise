@@ -870,6 +870,28 @@ body {
   padding-top: 80px;
 }
 
+@media (max-width: 974px) {
+  .contacts {
+    padding-bottom: 50px;
+  }
+
+  .contacts__header {
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 810px) {
+  .contacts__header {
+    margin-bottom: 20px;
+    padding-top: 35px;
+  }
+
+  .contacts {
+    padding-bottom: 25px;
+  }
+}
+
 .contacts__body {
   margin: 0 30px 80px;
   padding: 30px 0px;
@@ -878,18 +900,47 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 974px) {
+  .contacts__body {
+    margin: 0 30px 50px;
+  }
+}
+
+@media (max-width: 810px) {
+  .contacts__body {
+    margin: 0 15px 30px;
+  }
+}
+
 .contacts__column {
   align-items: center;
   background-color: #fff;
+  flex: 0 1 33.333%;
+}
+
+@media (max-width: 974px) {
+  .contacts__column {
+    flex: 0 1 50%;
+  }
+
+  .contacts__column:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .contacts__items {
   align-items: center;
   display: flex;
   flex-direction: column;
-  flex: 0 1 33.333%;
   justify-content: center;
   padding: 50px 40px;
+}
+
+@media (max-width: 810px) {
+  .contacts__items {
+    flex: 0 1 50%;
+    padding: 25px 20px;
+  }
 }
 
 .contacts__items > *:not(:last-child) {
@@ -899,11 +950,16 @@ body {
 .active {
   background: #252b42;
   color: #fff;
-  margin: -30px 0px;
 }
 
-.active .contacts__items {
-  height: 100%;
+@media (min-width: 974px) {
+  .active {
+    margin: -30px 0px;
+  }
+
+  .active .contacts__items {
+    height: 100%;
+  }
 }
 
 .item-contact__icon {
