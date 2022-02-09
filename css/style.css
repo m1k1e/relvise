@@ -859,19 +859,23 @@ body {
 /*-------------------Contacts-----------------------------------*/
 .contacts {
   background-color: #f3f3f3;
+  padding-bottom: 80px;
 }
 
 .contacts__container {
 }
 
 .contacts__header {
-  padding: 80px 0;
+  margin-bottom: 80px;
+  padding-top: 80px;
 }
 
 .contacts__body {
-  padding: 0 30px 80px;
+  margin: 0 30px 80px;
+  padding: 30px 0px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contacts__column {
@@ -890,6 +894,16 @@ body {
 
 .contacts__items > *:not(:last-child) {
   margin-bottom: 15px;
+}
+
+.active {
+  background: #252b42;
+  color: #fff;
+  margin: -30px 0px;
+}
+
+.active .contacts__items {
+  height: 100%;
 }
 
 .item-contact__icon {
@@ -913,6 +927,12 @@ body {
   background-color: #fff;
   color: #ff7b47;
   padding: 10px 20px;
+}
+
+.active .item-contact__btn {
+  background-color: #252b42;
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 /*-------------------FOOTER-------------------------------------*/
