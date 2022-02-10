@@ -992,5 +992,65 @@ body {
 }
 
 /*-------------------FOOTER-------------------------------------*/
-.footer_main {
+.footer__main {
+}
+.footer__container_ {
+}
+.footer-header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+.footer-header {
+}
+.header-column {
+}
+.header-column__title {
+  color: #252b42;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.33%;
+}
+.header-column__description {
+  line-height: 142%;
+  letter-spacing: 0.2px;
+}
+
+.button-block {
+  margin-right: 40px;
+}
+
+.button-block__button {
+  color: #fff;
+  background: #ff7b47;
+  border: 1px solid #ff7b47;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 15px 40px;
+}
+
+.footer-main {
+  background: #17213c;
+  color: #fff;
+}
+.footer-main__body {
+}
+.nav__items {
+}
+.link-item {
+}
+.link-item__title {
+}
+.link-item__list {
+}
+.link-item__link {
+}
+.footer-block {
+}
+.footer-block__text {
+}
+.footer-block__social-links {
+}
+.social-link {
 }
