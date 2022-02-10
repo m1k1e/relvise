@@ -1018,6 +1018,7 @@ body {
 }
 
 .header-column__description {
+  color: #737373;
   line-height: 142%;
   letter-spacing: 0.2px;
 }
@@ -1073,13 +1074,32 @@ body {
 }
 
 .footer-block {
+  padding: 25px 0px;
+}
+
+.footer-block__body {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-block__text {
+  color: #737373;
 }
 
 .footer-block__social-links {
 }
 
 .social-link {
+  display: flex;
+  padding: 0px 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.social-link li:hover {
+  opacity: 0.3;
 }
