@@ -1045,10 +1045,18 @@ body {
 .footer-main__body {
 }
 
-.nav__items {
+.nav__items-block {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .link-item {
+  flex: 0 1 15%;
+  display: inline-block;
+}
+
+.link-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .link-item__title {
@@ -1073,6 +1081,27 @@ body {
   text-decoration: underline;
 }
 
+.phone {
+  position: relative;
+}
+
+.phone::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../img/footer-phone-icon.svg");
+  top: 0;
+  left: 0;
+}
+
+.address {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 180px;
+  white-space: nowrap;
+}
+
 .footer-block {
   padding: 25px 0px;
 }
@@ -1080,6 +1109,7 @@ body {
 .footer-block__body {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-block__text {
