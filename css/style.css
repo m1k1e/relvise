@@ -1123,18 +1123,22 @@ body {
 }
 
 .link-item {
-  flex: 0 1 15%;
+  flex: 1 1 18%;
   display: inline-block;
   margin-bottom: 45px;
 }
 
 .link-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: -15px;
 }
 
 @media (max-width: 1070px) {
   .footer-main {
     padding: 50px;
+  }
+
+  .link-item {
+    flex: 1 1 25%;
   }
 }
 
@@ -1144,13 +1148,13 @@ body {
   }
 
   .link-item {
-    flex: 0 1 25%;
+    flex: 1 1 33.333%;
   }
 }
 
 @media (max-width: 600px) {
   .footer-main {
-    padding: 30px 0px;
+    padding: 30px 50px;
   }
 
   .link-item {
@@ -1164,9 +1168,15 @@ body {
 
 @media (max-width: 515px) {
   .link-item {
-    flex: 0 1 50%;
+    flex: 1 1 50%;
     line-height: 150%;
     text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .link-item {
+    flex: 0 0 100%;
   }
 }
 
@@ -1178,6 +1188,7 @@ body {
 }
 
 .link-item__list {
+  line-height: 150%;
 }
 
 .link-item__link:not(:last-child) {
@@ -1192,17 +1203,16 @@ body {
   text-decoration: underline;
 }
 
-.phone {
-  position: relative;
-}
-
 .phone::before {
   content: "";
-  display: block;
-  position: absolute;
+  display: inline-block;
   background-image: url("../img/footer-phone-icon.svg");
-  top: 0;
-  left: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: -8px;
+  margin-right: 8px;
+  width: 23px;
+  height: 24px;
 }
 
 .address {
@@ -1211,6 +1221,30 @@ body {
   text-overflow: ellipsis;
   width: 180px;
   white-space: nowrap;
+}
+
+.address::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../img/footer-map-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: -10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 35px;
+}
+
+.email::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../img/footer-email-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-bottom: -10px;
+  margin-right: 10px;
+  width: 24px;
+  height: 26px;
 }
 
 .footer-block {
